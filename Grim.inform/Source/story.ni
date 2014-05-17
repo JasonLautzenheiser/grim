@@ -20,8 +20,6 @@ Volume - Extensions (not for release)
 
 Include Property Checking by Emily Short.
 
-
-
 Volume - Game Settings
 
 Book  - Abouting
@@ -68,9 +66,10 @@ The robe is worn by the player.  The description is "Standard issue reaper robe,
 
 Instead of taking the robe, try taking off the robe.
 Instead of dropping the robe, try taking off the robe.
-Before of taking off the robe, say "You're no where near as frightening showing off your skin and bones."
+Before taking off the robe, say "You're no where near as frightening showing off your skin and bones."
 
 The scythe is carried by the player.  The description is "The standard grim reaper scythe.  Eight feet long with four foot blade gleaming in the dim light."
+Understand "blade" as scythe.
 
 Before dropping the scythe, say "It's what makes you who you are, without it you would just be a weird skinny dude in a robe.  Besides, if you come back without it....well let's just say you don't want to test your theories on that." instead.
 
