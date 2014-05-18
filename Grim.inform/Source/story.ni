@@ -43,6 +43,35 @@ When play begins:
 
 Book - Setup
 
+Part - Game stuff
+
+begin-meet-dink is a truth state that varies.  begin-meet-dink is usually false.
+
+Part - New Kinds
+
+Chapter - Destroyable
+
+A destroyable is a kind of thing.  A destroyable has some text called the destroyed-text.  The destroyed-text of a destroyable is usually "".
+
+Chapter - Flimsy
+
+A flimsy is a kind of thing.  A flimsy has some text called the action-refusal.  The action-refusal of a flimsy is usually "".  A flimsy is usually fixed in place, undescribed.
+
+To say brush-off of (n - a thing):
+	say "You don't need to worry about [if n is plural-named]those[else]that[end if]."
+
+Rule for writing a paragraph about a flimsy (called xx):
+	now xx is mentioned.
+
+Instead of examining a flimsy:
+	if the initial appearance of the noun is "", say "[brush-off of noun]";
+	otherwise say "[initial appearance of the noun][paragraph break]".
+
+instead of doing anything to a flimsy:
+	if the action-refusal of the noun is "", say "[brush-off of noun]";
+	otherwise say "[action-refusal of the noun][paragraph break]".
+
+
 Part - Person Stuff
 
 Chapter - Seen / Unseen
@@ -57,7 +86,7 @@ Book - Actors
 
 Part - NPC
 
-Dink Bets is a man.  The printed name of Dink Bets is "Dink J. Bets".   Dink Bets is in Dinks-Home.
+Dink Bets is a man.  The printed name of Dink Bets is "Dink J. Bets".   Dink Bets is in Inside-Dinks-Home.
 	
 Part - Player
 
@@ -77,6 +106,12 @@ The player is in the sandy path.
 
 Book - Locations
 
+Chapter  - Desert
+
+The desert is a backdrop.  The desert is everywhere.  The description of the desert is "The sandy expanse goes on as far as you can see.".
+[Instead of going to the desert:
+	say "Even with your supernatural powers, you could become hopelessly lost if you venture too far."]
+
 Part - Dink Home
 
 Dinks-Homestead is a region.
@@ -88,15 +123,73 @@ Sandy Path is in Dinks-Homestead.
 
 Chapter - Front Stoop
 
-Front Stoop is a room.  The description of front stoop is "You are standing on the dirt stoop of Dink's home.  A simple roof overhangs this area and a homemade wooden chair sits outside the front door."  Front stoop is in dinks-homestead.  front stoop is east of sandy path.
+Front Stoop is a room.  The description of front stoop is "You are standing on the dirt stoop of [Dinks-home].  A simple roof overhangs this area and a homemade [wooden chair] sits off to one side of [the front-door]."  Front stoop is in dinks-homestead.  front stoop is east of sandy path.
 
-the front-door is a lockable locked door.  The front-door is east of front stoop.  The description of front-door is "Simple wooden front door."
+dinks-home is a backdrop.  Dinks-home is in front stoop.   Understand "dink's home" or "home" or "house" as dinks-home.  The description of dinks-home is "The house is little more than some [wooden planks] standing upright topped with a [rusty tin roof]."  
+
+The wooden planks are a part of dinks-home.  The description of wooden planks is "The wooden planks uneven and rotten in some places.  You're not sure how they are still holding up the roof."
+
+The rusty tin roof is a part of dinks-home.  The description of rusty tin roof is "The tin roof is rusted through in many places."
+
+Section - Front door
+
+the front-door is a destroyable.  The printed name of front-door is  "[if destroyed]remains of the front door[otherwise]front door".  The front-door is east of front stoop.  The description of front-door is "Simple wooden front door."  Destroyed text is "remains of the front door".
+
+The front-door can be destroyed or intact.   The front-door is  intact.
+
 Understand "front door" or "frontdoor" or "door" as front-door when the location is front stoop.
 
+before opening the front-door:
+	say "Even the Grim Reaper has some manners, it would be impolite to just burst in uninvited." instead.
+	
+before unlocking the front-door with anything: 
+	say "When you became the Grim Reaper, you weren't given some sort of magical skeleton key....though that would have been cool." instead.
+
+instead of knocking on  the front-door:
+	say "You bang on [the noun], but you hear nothing inside."
+	
+instead of knocking on  the front-door for the first time:
+	say "You bang on [the noun].  You hear a faint rustling from inside the house."
+
+instead of knocking on  the front-door for the second time:
+	say "You bang on [the noun] again.  Someone from inside yells, 'Hold on...hold on already, I[']m coming'."
+
+instead of knocking on  the front-door for the third time:
+	now begin-meet-dink is true;
+	say "You bang on [the noun] again.  'Geez, this one[']s impatient', someone mumbles from just on the other side of the door.[paragraph break]Slowly the door creeks open just enough for an old man to peek out. [paragraph break]'What do you want?' the old man peering out the slightly cracked door asks.[paragraph break]'It[']s your...'[paragraph break]That came out kind of squeeky.  You clear your throat and try again in a more menacing tone.[paragraph break]'It[']s your time Dink Betts.  I[']ve come for your soul.'[paragraph break]Dink, looks at you with those old squinty eyes and a sly grin creeps across his face.[paragraph break]He let[']s out a small chuckle and spits his tobacco at your feet just about hitting the bottom of your robe. [paragraph break]'You[']ll have to come get it, Mr. Reaper.'  And with that he slams the door in your face.".
+	
+Before taking the front-door:
+	say "[if front-door is destroyed]You shift through [the front-door] but nothing is worth taking.[otherwise]As much as it looks like you could rip the door right of the hinges, it is attached better than you thought or perhaps you should have spent more time in physical training at the acadamy." instead.
+
+Before attacking the front-door:
+	if meet dink is happening:
+		say "[if front-door is intact]You swing your scythe at [the front-door] and [it] disappears in a cloud of dust.[otherwise]You've already done all the damage you can do to the ";
+		now the description of the front-door is "Nothing more than a pile of dust now.";
+		now the front-door is destroyed;
+		now the front-door is open instead.
+		
+Knocking on is an action applying to one thing.
+Understand "knock on [something]" or "knock [something]" as knocking on.
+
+Understand the commands "bang" and "tap" and "rap" as "knock".
+
+
+Section - Wooden Chair
+
+the wooden chair is a an enterable supporter in front stoop.  The description of wooden chair is "The wooden chair is made up of some branches nailed and tied together to make something roughly chair shaped."
+
+Before taking the wooden chair:
+	say "The wooden chair is pretty rickety and might not hold together if you move it." instead.
 
 Chapter - Inside House
 
-Dinks-Home is a room.  The printed name of dinks-home is "Inside Dink's Home".   Dinks-Home is east of front-door.
+Inside-Dinks-Home is a room.  The printed name of dinks-home is "Inside Dink's Home".   Inside-Dinks-Home is east of front-door.
+
+Volume - Scenes
+
+Book - Meet Dink
+
+Meet Dink is a scene.  Meet Dink begins when begin-meet-dink is true.
 
 Volume - Testing & Debugging (not for release)
 
