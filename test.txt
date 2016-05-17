@@ -1,0 +1,16 @@
+Start of a transcript of
+
+Grim
+A pathetic tale by Jason Lautzenheiser
+Release 1 / Serial number 140515 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD
+Copyright © 2014, Jason Lautzenheiser.
+Identification number: //DF5CF3AC-7345-4FE8-8267-1655A234B42D//
+Interpreter version 0.5.2 / VM 3.1.2 / Library serial number 080126
+Standard Rules version 3/120430 by Graham Nelson
+
+Thanks for doing this! Email can go to lautzenheiser.jason@gmail.com.
+
+>quit
+Thanks for taking the time to create a transcript.  Please send it to lautzenheiser.jason@gmail.com and I'll be grateful.  Thanks!
+
+Are you sure you want to quit? yes

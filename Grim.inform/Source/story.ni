@@ -29,7 +29,7 @@ Understand "about" as abouting.
 Understand the command "credits" or "info" as "about".
 
 Report abouting:
-	say "[italic type][Story title][roman type] is copyright © 2014 by Jason Lautzenheiser (jlautz@sssnet.com or visit my blog at http://lautzofif.wordpress.com).  This work may be distributed for free, but not sold or included in any for-profit collection without the written permission from the author.[paragraph break]";
+	say "[italic type][Story title][roman type] is copyright © 2014 by Jason Lautzenheiser (lautzenheiser.jason@gmail.com or visit my blog at http://lautzofif.wordpress.com).  This work may be distributed for free, but not sold or included in any for-profit collection without the written permission from the author.[paragraph break]";
 	
 Book - Start
 
@@ -51,7 +51,18 @@ Part - New Kinds
 
 Chapter - Destroyable
 
-A destroyable is a kind of thing.  A destroyable has some text called the destroyed-text.  The destroyed-text of a destroyable is usually "".
+A destroyable is a kind of thing.  
+A destroyable has some text called the destroyed-name.  The destroyed-name of a destroyable is usually "".   
+A destroyable has some text called the destroyed-description.  The destroyed-description of a destroyable is usually "".   
+A destroyable can be either destroyed or intact.  A destroyable is usually intact.
+
+Before printing the name of a destroyable:
+	if the destroyable is destroyed:
+		say the destroyed-name instead.
+
+Before examining a destroyable:
+	if the destroyable is destroyed:
+		say the destroyed-description instead.
 
 Chapter - Flimsy
 
@@ -91,22 +102,35 @@ Dink Bets is a man.  The printed name of Dink Bets is "Dink J. Bets".   Dink Bet
 Part - Player
 
 Instead of examining the player, say "Your face is hidden in your long dark robe, only your eyes glow allowing your harvest to see you in the dark of night.  It is actually just a myth that you're a skeleton inside those robes.  You are just really, really skinny.  And pale, don't forget pale."
-The robe is worn by the player.  The description is "Standard issue reaper robe, head to toe coverage."
 
+The player is in the sandy path.
+
+Chapter - Robes
+
+The robe is worn by the player.  The description is "Standard issue reaper robe, head to toe coverage."
 Instead of taking the robe, try taking off the robe.
 Instead of dropping the robe, try taking off the robe.
 Before taking off the robe, say "You're no where near as frightening showing off your skin and bones."
 
-The scythe is carried by the player.  The description is "The standard grim reaper scythe.  Eight feet long with four foot blade gleaming in the dim light."
+Chapter - Scythe
+
+The scythe is carried by the player.  The description is "The standard issue grim reaper scythe.  Eight feet long with four foot blade gleaming in the dim light."
 Understand "blade" as scythe.
 
 Before dropping the scythe, say "It's what makes you who you are, without it you would just be a weird skinny dude in a robe.  Besides, if you come back without it....well let's just say you don't want to test your theories on that." instead.
 
-The player is in the sandy path.
+Chapter - Handbook
 
-Book - Locations
+The handbook is carried by the player.  The description is "The handbook, titled 'Official Rules and Regulations for all Authorized Grim Reapers' is issued to all first year students."
 
-Chapter  - Desert
+Rule for printing the name of the handbook while taking inventory: say "Official Grim Reapers Handbook"
+
+Before dropping the handbook, say "You're not even sure that is possible." instead.
+
+
+Volume - Locations
+
+Book  - Desert
 
 The desert is a backdrop.  The desert is everywhere.  The description of the desert is "The sandy expanse goes on as far as you can see.".
 [Instead of going to the desert:
@@ -116,12 +140,12 @@ Part - Dink Home
 
 Dinks-Homestead is a region.
 
-Chapter - Sandy Path
+Book - Sandy Path
 
 Sandy Path is a room.  The printed name of sandy path is "Sandy Path". The description of sandy path is "The sandy path leading forward is faintly visible in the low light of the setting sun.  Around you is the endless sand of the desert."
 Sandy Path is in Dinks-Homestead.
 
-Chapter - Front Stoop
+Book - Front Stoop
 
 Front Stoop is a room.  The description of front stoop is "You are standing on the dirt stoop of [Dinks-home].  A simple roof overhangs this area and a homemade [wooden chair] sits off to one side of [the front-door]."  Front stoop is in dinks-homestead.  front stoop is east of sandy path.
 
@@ -131,9 +155,13 @@ The wooden planks are a part of dinks-home.  The description of wooden planks is
 
 The rusty tin roof is a part of dinks-home.  The description of rusty tin roof is "The tin roof is rusted through in many places."
 
-Section - Front door
+Before going east in front stoop:
+	if front-door is intact:
+		try opening the front-door instead.
 
-the front-door is a destroyable.  The printed name of front-door is  "[if destroyed]remains of the front door[otherwise]front door".  The front-door is east of front stoop.  The description of front-door is "Simple wooden front door."  Destroyed text is "remains of the front door".
+Part - Front door
+
+the front-door is a destroyable.  The printed name of front-door is  "front door".    The description of front-door is "Simple wooden front door."  Destroyed-name is "remains of the front door".   The front-door is in front stoop.  The destroyed-description of the front-door is "Nothing more than a pile of dust now.[line break]"
 
 The front-door can be destroyed or intact.   The front-door is  intact.
 
@@ -164,9 +192,7 @@ Before taking the front-door:
 Before attacking the front-door:
 	if meet dink is happening:
 		say "[if front-door is intact]You swing your scythe at [the front-door] and [it] disappears in a cloud of dust.[otherwise]You've already done all the damage you can do to the ";
-		now the description of the front-door is "Nothing more than a pile of dust now.";
-		now the front-door is destroyed;
-		now the front-door is open instead.
+		now the front-door is destroyed instead.
 		
 Knocking on is an action applying to one thing.
 Understand "knock on [something]" or "knock [something]" as knocking on.
@@ -174,16 +200,16 @@ Understand "knock on [something]" or "knock [something]" as knocking on.
 Understand the commands "bang" and "tap" and "rap" as "knock".
 
 
-Section - Wooden Chair
+Part - Wooden Chair
 
 the wooden chair is a an enterable supporter in front stoop.  The description of wooden chair is "The wooden chair is made up of some branches nailed and tied together to make something roughly chair shaped."
 
 Before taking the wooden chair:
 	say "The wooden chair is pretty rickety and might not hold together if you move it." instead.
 
-Chapter - Inside House
+Book - Inside House
 
-Inside-Dinks-Home is a room.  The printed name of dinks-home is "Inside Dink's Home".   Inside-Dinks-Home is east of front-door.
+Inside-Dinks-Home is a room.  The printed name of Inside-Dinks-Home is "Inside Dink's Home".   Inside-Dinks-Home is east of front stoop.
 
 Volume - Scenes
 

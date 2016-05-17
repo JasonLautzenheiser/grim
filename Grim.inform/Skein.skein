@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x025844C0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x031FDF70"/>
+  <item nodeId="node-0x025844C0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">The player has the default description.&#x000A;Inside Dink's Home has no description.&#x000A;light-meter has no description.&#x000A;Dink J. Bets has no description.&#x000A;&#x000A;This is what all your training has been for and you're ready.  You can't fail.  You have to reap the harvest tonight.  You've just come from the academy and this is your first solo job.  You've got this.&#x000A;&#x000A;Grim&#x000A;A pathetic tale by Jason Lautzenheiser&#x000A;Release 1 / Serial number 140518 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD&#x000A;Copyright &#x00A9; 2014, Jason Lautzenheiser.&#x000A;&#x000A;Sandy Path&#x000A;The sandy path leading forward is faintly visible in the low light of the setting sun.  Around you is the endless sand of the desert.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x031FDF70"/>
+      <child nodeId="node-0x031F3418"/>
+      <child nodeId="node-0x031F3488"/>
+      <child nodeId="node-0x031F3648"/>
+      <child nodeId="node-0x031F4938"/>
+      <child nodeId="node-0x031F45B8"/>
+      <child nodeId="node-0x031F6178"/>
+      <child nodeId="node-0x031F65D8"/>
+      <child nodeId="node-0x031F63A8"/>
+      <child nodeId="node-0x031F6878"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FDF70">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a robe (being worn)&#x000A;  a scythe&#x000A;  a the Official Grim Reapers Handbook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FE128"/>
+      <child nodeId="node-0x031FEE88"/>
+      <child nodeId="node-0x031FEEF8"/>
+      <child nodeId="node-0x031F29C8"/>
+      <child nodeId="node-0x031F32A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FE128">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Desert Path&#x000A;The sandy path leading forward is faintly visible in the low light of the setting sun.  Around you is the endless sand of the desert.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FE198"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FE198">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot, fruitlessly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FE208"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FE208">
+    <command xml:space="preserve">xyzzy</command>
+    <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031FEE88">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">Your face is hidden in your long dark robe, only your eyes glow allowing your harvest to see you in the dark of night.  It is actually just a myth that you're a skeleton inside those robes.  You are just really, really skinny.  And pale, don't forget pale.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031FEEF8">
+    <command xml:space="preserve">drop scythe</command>
+    <result xml:space="preserve">It's what makes you who you are, without it you would just be a weird skinny dude in a robe.  Besides, if you come back without it....well let's just say you don't want to test your theories on that.&#x000A;&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FEF68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FEF68">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Desert Path&#x000A;The sandy path leading forward is faintly visible in the low light of the setting sun.  Around you is the endless sand of the desert.&#x000A;&#x000A;You can see a scythe here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F29C8">
+    <command xml:space="preserve">x scythe</command>
+    <result xml:space="preserve">The standard grim reaper scythe.  Eight feet long with four foot blade gleaming in the dim light.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F2B88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F2B88">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Desert Path&#x000A;The sandy path leading forward is faintly visible in the low light of the setting sun.  Around you is the endless sand of the desert.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F2C78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F2C78">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You're holding a scythe. You're wearing a robe. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F30E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F30E8">
+    <command xml:space="preserve">x sand</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F32A0">
+    <command xml:space="preserve">x handbook</command>
+    <result xml:space="preserve">The handbook, titled "Official Rules and Regulations for all Authorized Grim Reapers" is issued to all first year students.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F36B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F36B8">
+    <command xml:space="preserve">drop handbook</command>
+    <result xml:space="preserve">You're not even sure that is possible.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F34F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F34F8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a robe (being worn)&#x000A;  a scythe&#x000A;  a the Official Grim Reapers Handbookhandbook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F3418">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">Your face is hidden in your long dark robe, only your eyes glow allowing your harvest to see you in the dark of night.  It is actually just a myth that you're a skeleton inside those robes.  You are just really, really skinny.  And pale, don't forget pale.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F33A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F33A8">
+    <command xml:space="preserve">x robe</command>
+    <result xml:space="preserve">Standard issue reaper robe, head to toe coverage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F35D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F35D8">
+    <command xml:space="preserve">about</command>
+    <result xml:space="preserve">Grim is copyright &#x00A9; 2014 by Jason Lautzenheiser (jlautz@sssnet.com or visit my blog at http://lautzofif.wordpress.com).  This work may be distributed for free, but not sold or included in any for-profit collection without the written permission from the author.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F3488">
+    <command xml:space="preserve">drop scythe</command>
+    <result xml:space="preserve">It's what makes you who you are, without it you would just be a weird skinny dude in a robe.  Besides, if you come back without it....well let's just say you don't want to test your theories on that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F3568"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F3568">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a robe (being worn)&#x000A;  a scythe&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F3648">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Dink looks at you hatefully.&#x000A;&#x000A;You are being attacked by Dink J. Bets.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F4778"/>
+      <child nodeId="node-0x031F4698"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F4778">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F4388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F4388">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F49A8"/>
+      <child nodeId="node-0x031F4708"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F49A8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">The Desert Path&#x000A;The sandy path leading forward is faintly visible in the low light of the setting sun.  Around you is the endless sand of the desert.&#x000A;&#x000A;You can see Dink J. Bets here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F4708">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F47E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F47E8">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F4858"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F4858">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F4698">
+    <command xml:space="preserve">attack self</command>
+    <result xml:space="preserve">You are being attacked.&#x000A;&#x000A;Dink looks at you hatefully.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F4938">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Sandy Path&#x000A;The sandy path leading forward is faintly visible in the low light of the setting sun.  Around you is the endless sand of the desert.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F4A18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F4A18">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a robe (being worn)&#x000A;  a scythe&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F48C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F48C8">
+    <command xml:space="preserve">x scythe</command>
+    <result xml:space="preserve">The standard grim reaper scythe.  Eight feet long with four foot blade gleaming in the dim light.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F4A88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F4A88">
+    <command xml:space="preserve">; test</command>
+    <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F43F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F43F8">
+    <command xml:space="preserve">* test</command>
+    <result xml:space="preserve">You've made a comment-style command, but Transcript is off. Type TRANSCRIPT to turn it on, if you wish to make notes.&#x000A;&#x000A;The long version of this nag will only appear once. You may press any key to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F4468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F4468">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F44D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F44D8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F4548"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F4548">
+    <command xml:space="preserve">* test</command>
+    <result xml:space="preserve">(Comment not sent to transcript.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F45B8">
+    <command xml:space="preserve">; test</command>
+    <result xml:space="preserve">You've made a comment-style command, but the transcript is off. Type TRANSCRIPT to turn it on, if you wish to make notes.&#x000A;&#x000A;The long version of this nag will only appear once. You may press any key to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F4628"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F4628">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F6648"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F6648">
+    <command xml:space="preserve">;test</command>
+    <result xml:space="preserve">(Comment not sent to transcript.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F66B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F66B8">
+    <command xml:space="preserve">* test</command>
+    <result xml:space="preserve">(Comment not sent to transcript.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F6178">
+    <command xml:space="preserve">;test</command>
+    <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F6728"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F6728">
+    <command xml:space="preserve">; test</command>
+    <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F6418"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F6418">
+    <command xml:space="preserve">* tets</command>
+    <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F65D8">
+    <command xml:space="preserve">*</command>
+    <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F6798"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F6798">
+    <command xml:space="preserve">*; test</command>
+    <result xml:space="preserve">You've made a comment-style command, but the transcript is off. Type TRANSCRIPT to turn it on, if you wish to make notes.&#x000A;&#x000A;The long version of this nag will only appear once. You may press any key to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F63A8">
+    <command xml:space="preserve">transcript</command>
+    <result xml:space="preserve">Start of a transcript of&#x000A;&#x000A;Grim&#x000A;A pathetic tale by Jason Lautzenheiser&#x000A;Release 1 / Serial number 140515 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD&#x000A;Copyright &#x00A9; 2014, Jason Lautzenheiser.&#x000A;Identification number: //DF5CF3AC-7345-4FE8-8267-1655A234B42D//&#x000A;Interpreter version 0.5.2 / VM 3.1.2 / Library serial number 080126&#x000A;Standard Rules version 3/120430 by Graham Nelson&#x000A;&#x000A;Thanks for doing this! Email can go to lautzenheiser.jason@gmail.com.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F6808"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F6808">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Thanks for taking the time to create a transcript.  Please send it to lautzenheiser.jason@gmail.com and I'll be grateful.  Thanks!&#x000A;&#x000A;Are you sure you want to quit?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F6258"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F6258">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031F6878">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Front Stoop&#x000A;You are standing on the dirt stoop of Inside Dink's Home.  A simple roof overhangs this area and a homemade wooden chair sits off to one side of the front door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F61E8"/>
+      <child nodeId="node-0x031FF7A8"/>
+      <child nodeId="node-0x03201E10"/>
+      <child nodeId="node-0x032017F0"/>
+      <child nodeId="node-0x03203F78"/>
+      <child nodeId="node-0x03204218"/>
+      <child nodeId="node-0x03203FE8"/>
+      <child nodeId="node-0x032044B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F61E8">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">What do you want to knock?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F62C8"/>
+      <child nodeId="node-0x031FF9D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F62C8">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F6488"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F6488">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Front Stoop&#x000A;You are standing on the dirt stoop of Dink's home.  A simple roof overhangs this area and a homemade wooden chair sits outside the front door.&#x000A;&#x000A;You can see a front-door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F64F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F64F8">
+    <command xml:space="preserve">x dink</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F6338"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F6338">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Sandy Path&#x000A;The sandy path leading forward is faintly visible in the low light of the setting sun.  Around you is the endless sand of the desert.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031F6568"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031F6568">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF968"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF968">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF658"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF658">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF738">
+    <command xml:space="preserve">x dink</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031FF9D8">
+    <command xml:space="preserve">door</command>
+    <result xml:space="preserve">You bang on the front door.  You hear a faint rustling from inside the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF818"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF818">
+    <command xml:space="preserve">rap on door</command>
+    <result xml:space="preserve">You bang on the front door again.  Someone from inside yells, "Hold on...hold on already, I'm coming".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF5E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF5E8">
+    <command xml:space="preserve">tap on door</command>
+    <result xml:space="preserve">You bang on the front door again.  "Geez, this one's impatient", someone mumbles from just on the other side of the door.&#x000A;&#x000A;Slowly the door creeks open just enough for an old man to peek out. &#x000A;&#x000A;"What do you want?" the old man peering out the slightly cracked door asks.&#x000A;&#x000A;"It's your..."&#x000A;&#x000A;That came out kind of squeeky.  You clear your throat and try again in a more menacing tone.&#x000A;&#x000A;"It's your time Dink Betts.  I've come for your soul.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF2D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF2D8">
+    <command xml:space="preserve">attack door</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031FF7A8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the front door)&#x000A;Even the Grim Reaper has some manners, it would be impolite to just burst in uninvited.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF888"/>
+      <child nodeId="node-0x031FF498"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF888">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Front Stoop&#x000A;You are standing on the dirt stoop of Dink's home.  A simple roof overhangs this area and a homemade wooden chair sits outside the front door.&#x000A;&#x000A;You can see a front-door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF348"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF348">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF3B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF3B8">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031FF498">
+    <command xml:space="preserve">attack front door</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF508"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF508">
+    <command xml:space="preserve">knock on door</command>
+    <result xml:space="preserve">You bang on the front door.  You hear a faint rustling from inside the house.&#x000A;&#x000A;You bang on the front door, but you hear nothing inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF578"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF578">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You bang on the front door again.  Someone from inside yells, "Hold on...hold on already, I'm coming".&#x000A;&#x000A;You bang on the front door, but you hear nothing inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031FF6C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031FF6C8">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You bang on the front door again.  "Geez, this one's impatient", someone mumbles from just on the other side of the door.&#x000A;&#x000A;Slowly the door creeks open just enough for an old man to peek out. &#x000A;&#x000A;"What do you want?" the old man peering out the slightly cracked door asks.&#x000A;&#x000A;"It's your..."&#x000A;&#x000A;That came out kind of squeeky.  You clear your throat and try again in a more menacing tone.&#x000A;&#x000A;"It's your time Dink Betts.  I've come for your soul."&#x000A;&#x000A;Dink, looks at you with those old squinty eyes and a sly grin creeps across his face.&#x000A;&#x000A;He let's out a small chuckle and spits his tobacco at your feet just about hitting the bottom of your robe. &#x000A;&#x000A;"You'll have to come get it, Mr. Reaper."  And with that he slams the door in your face.&#x000A;&#x000A;You bang on the front door, but you hear nothing inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201780">
+    <command xml:space="preserve">attack front door</command>
+    <result xml:space="preserve">You swing your scythe at the front door and it disappears in a cloud of dust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201B00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201B00">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Front Stoop&#x000A;You are standing on the dirt stoop of Inside Dink's Home.  A simple roof overhangs this area and a homemade wooden chair sits off to one side of the pile of dust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03201E10">
+    <command xml:space="preserve">x chair</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201DA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201DA0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Simple wooden front door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201CC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201CC0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201E80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201E80">
+    <command xml:space="preserve">knock on door</command>
+    <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x032017F0">
+    <command xml:space="preserve">knock on door</command>
+    <result xml:space="preserve">You bang on the front door.  You hear a faint rustling from inside the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201860"/>
+      <child nodeId="node-0x03201940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201860">
+    <command xml:space="preserve">knock on door</command>
+    <result xml:space="preserve">You bang on the front door again.  Someone from inside yells, "Hold on...hold on already, I'm coming".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x032018D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x032018D0">
+    <command xml:space="preserve">knock on door</command>
+    <result xml:space="preserve">You bang on the front door again.  "Geez, this one's impatient", someone mumbles from just on the other side of the door.&#x000A;&#x000A;Slowly the door creeks open just enough for an old man to peek out. &#x000A;&#x000A;"What do you want?" the old man peering out the slightly cracked door asks.&#x000A;&#x000A;"It's your..."&#x000A;&#x000A;That came out kind of squeeky.  You clear your throat and try again in a more menacing tone.&#x000A;&#x000A;"It's your time Dink Betts.  I've come for your soul.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201B70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201B70">
+    <command xml:space="preserve">attack door</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03201940">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You bang on the front door again.  Someone from inside yells, "Hold on...hold on already, I'm coming".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x032019B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x032019B0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You bang on the front door again.  "Geez, this one's impatient", someone mumbles from just on the other side of the door.&#x000A;&#x000A;Slowly the door creeks open just enough for an old man to peek out. &#x000A;&#x000A;"What do you want?" the old man peering out the slightly cracked door asks.&#x000A;&#x000A;"It's your..."&#x000A;&#x000A;That came out kind of squeeky.  You clear your throat and try again in a more menacing tone.&#x000A;&#x000A;"It's your time Dink Betts.  I've come for your soul."&#x000A;&#x000A;Dink, looks at you with those old squinty eyes and a sly grin creeps across his face.&#x000A;&#x000A;He let's out a small chuckle and spits his tobacco at your feet just about hitting the bottom of your robe. &#x000A;&#x000A;"You'll have to come get it, Mr. Reaper."  And with that he slams the door in your face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201A20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201A20">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You bang on the front door, but you hear nothing inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201A90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201A90">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Front Stoop&#x000A;You are standing on the dirt stoop of Inside Dink's Home.  A simple roof overhangs this area and a homemade wooden chair sits off to one side of the front door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201BE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201BE0">
+    <command xml:space="preserve">attack door</command>
+    <result xml:space="preserve">You swing your scythe at the front door and it disappears in a cloud of dust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03201C50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03201C50">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You swing your scythe at the remains of the front door and it disappears in a cloud of dust.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03203E28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03203E28">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Front Stoop&#x000A;You are standing on the dirt stoop of Inside Dink's Home.  A simple roof overhangs this area and a homemade wooden chair sits off to one side of the remains of the front door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03204058"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03204058">
+    <command xml:space="preserve">take door</command>
+    <result xml:space="preserve">You shift through the remains of the front door but nothing is worth taking.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03203F78">
+    <command xml:space="preserve">attack door</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x032042F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x032042F8">
+    <command xml:space="preserve">knock on door</command>
+    <result xml:space="preserve">You bang on the front door.  You hear a faint rustling from inside the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03203E98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03203E98">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You bang on the front door again.  Someone from inside yells, "Hold on...hold on already, I'm coming".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03204448"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03204448">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You bang on the front door again.  "Geez, this one's impatient", someone mumbles from just on the other side of the door.&#x000A;&#x000A;Slowly the door creeks open just enough for an old man to peek out. &#x000A;&#x000A;"What do you want?" the old man peering out the slightly cracked door asks.&#x000A;&#x000A;"It's your..."&#x000A;&#x000A;That came out kind of squeeky.  You clear your throat and try again in a more menacing tone.&#x000A;&#x000A;"It's your time Dink Betts.  I've come for your soul.&#x000A;&#x000A;Dink, looks at you with those old squinty eyes and a sly grin creeps across his face.&#x000A;&#x000A;He let's out a small chuckle and spits his tobacco at your feet just about hitting the bottom of your robe. &#x000A;&#x000A;"You'll have to come get it, Mr. Reaper."  And with that he slams the door in your face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03204218">
+    <command xml:space="preserve">take door</command>
+    <result xml:space="preserve">As much as it looks like you could rip the door right of the hinges, it is attached better than you thought or perhaps you should have spent more time in physical training at the acadamy.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03203FE8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Front Stoop&#x000A;You are standing on the dirt stoop of Inside Dink's Home.  A simple roof overhangs this area and a homemade wooden chair sits off to one side.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03204368"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03204368">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Simple wooden front door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03204138"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03204138">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the front door)&#x000A;Even the Grim Reaper has some manners, it would be impolite to just burst in uninvited.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x032044B8">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Simple wooden front door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03203F08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03203F08">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">Even the Grim Reaper has some manners, it would be impolite to just burst in uninvited.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x032040C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x032040C8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Even the Grim Reaper has some manners, it would be impolite to just burst in uninvited.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x032041A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x032041A8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Front Stoop&#x000A;You are standing on the dirt stoop of Inside Dink's Home.  A simple roof overhangs this area and a homemade wooden chair sits off to one side of the front door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03204288"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03204288">
+    <command xml:space="preserve">knock on door</command>
+    <result xml:space="preserve">You bang on the front door.  You hear a faint rustling from inside the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
