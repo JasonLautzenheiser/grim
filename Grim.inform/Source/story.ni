@@ -7,18 +7,13 @@ Volume - Bibliography
 
 The story genre is "Humor".
 The story headline is "A pathetic tale".
-The story creation year is 2014.
+The story creation year is 2020.
 The release number is 1.
 
 Volume - Extensions
 
 Include Basic Screen Effects by Emily Short.
 Include Exit Lister by Eric Eve.
-
-
-Volume - Extensions (not for release)
-
-Include Property Checking by Emily Short.
 
 Volume - Game Settings
 
@@ -29,11 +24,11 @@ Understand "about" as abouting.
 Understand the command "credits" or "info" as "about".
 
 Report abouting:
-	say "[italic type][Story title][roman type] is copyright © 2014 by Jason Lautzenheiser (lautzenheiser.jason@gmail.com or visit my blog at http://lautzofif.wordpress.com).  This work may be distributed for free, but not sold or included in any for-profit collection without the written permission from the author.[paragraph break]";
+	say "[italic type][Story title][roman type] is copyright © 2020 by Jason Lautzenheiser (lautzenheiser.jason@gmail.com or visit my blog at http://lautzofif.wordpress.com).  This work may be distributed for free, but not sold or included in any for-profit collection without the written permission from the author.[paragraph break]";
 	
 Book - Start
 
-After printing the banner text, say "Copyright © 2014, Jason Lautzenheiser."
+After printing the banner text, say "Copyright © 2020, Jason Lautzenheiser."
 The time of day is 8:30 pm.
 
 When play begins:
@@ -97,7 +92,12 @@ Book - Actors
 
 Part - NPC
 
-Dink Bets is a man.  The printed name of Dink Bets is "Dink J. Bets".   Dink Bets is in Inside-Dinks-Home.
+Chapter - Dink Bets
+
+Dink Bets is a man.  The printed name of Dink Bets is "Dink J. Bets".   Dink Bets is in Inside-Dinks-Home.  The description is "Dink J. Bets is an old man, but looks quite spry for his age."  Understand "soul" as dink bets.
+
+After examining Dink Bets for the first time:
+	say "[italic type]You can always look at your orders for more information on Dink.[roman type]."
 	
 Part - Player
 
